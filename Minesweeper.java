@@ -1,7 +1,4 @@
 class Minesweeper {
-    
-    //public String[] playerArray = {};
-    
     private static Dialogue dialogue = new Dialogue();
 
     public static void main(String [] args) {

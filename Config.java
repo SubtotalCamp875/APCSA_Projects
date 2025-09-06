@@ -1,7 +1,7 @@
 public class Config {
     //constants
     public static final int maxBoardSize = 9;
-    public static final int maxMineCount = 5;
+    public static final int maxMineCount = 8;
     public static final String solutionMineSyntax = "Mine";
     public static final String voidSyntax = "-";
     public static final String fogSyntax = "X";
