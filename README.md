@@ -11,12 +11,13 @@ When the program automatically uncover cells surrounding a "0" (or "void"), flag
 For thsi project, your aim is to create minesweeper within the terminal. 
 - The board size should be 9x9 with 8 mines.
 - You will propmt the user to input a set of coordinates before generating and an array.
-- * Assume all inputs are valid inputs. Valid inputs will ignore all spaces and parenthesis, 2 numbers will be seperated by a comma, and there can be a upper or lower case "f" at the 0th index. 
-- The printed board should display the x and y coordinate surrounded in brackets both sides and bottom. Coordinates will satrt with index 0.
-- The game automatically ends with a win or lose messaage is a the user opens all tiles (except mines) or clicks on a mine.
-- When a player flags a tile, that tile can not be opened automatically or manually until that tile is unflagged.
-- If a "0" or "void" tile is opened, all the surrounding tiles should automatically be opened.
+  * Assume all inputs are valid inputs. Valid inputs will ignore all spaces and parenthesis, 2 numbers will be seperated by a comma, and there can be a upper or lower case "f" at the 0th index.
+- inputs where "f" is in the first index will toggle whether or not a tile is flagged
+  * When a player flags a tile, that tile can not be opened automatically or manually until that tile is unflagged.
+- If a "0" or "void" tile is opened, all the surrounding tiles should automatically be opened (Unless flagged).
+- The printed board should display the x and y coordinate surrounded in brackets both sides and bottom. Coordinates will start with index 0.
+- The game automatically ends with a win or lose messaage if a the user opens all tiles (except mines) or clicks on a mine.
 
 # Bonus:
-- Make the tiles color coded.
+- Make the tiles color coded. (You may use color files from google)
 - Add a config file so specific variables (that are used globally in the program) can be changed.
