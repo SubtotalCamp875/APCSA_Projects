@@ -14,6 +14,7 @@ For thsi project, your aim is to create minesweeper within the terminal.
   * Assume all inputs are valid inputs. Valid inputs will ignore all spaces and parenthesis, 2 numbers will be seperated by a comma, and there can be a upper or lower case "f" at the 0th index.
 - inputs where "f" is in the first index will toggle whether or not a tile is flagged
   * When a player flags a tile, that tile can not be opened automatically or manually until that tile is unflagged.
+  * Players may flag any amount of tiles even before any tile has been opened. 
 - If a "0" or "void" tile is opened, all the surrounding tiles should automatically be opened (Unless flagged).
 - The printed board should display the x and y coordinate surrounded in brackets both sides and bottom. Coordinates will start with index 0.
 - The game automatically ends with a win or lose messaage if a the user opens all tiles (except mines) or clicks on a mine.
@@ -21,3 +22,9 @@ For thsi project, your aim is to create minesweeper within the terminal.
 # Bonus:
 - Make the tiles color coded. (You may use color files from google)
 - Add a config file so specific variables (that are used globally in the program) can be changed.
+
+# Hint:
+- Create a seperate array class for the solution and client view.
+ * Take this up another step and create a "FogArray" class that keeps tracks of which tiles are uncovered and use this to repeatedly generate the client array
+- Import random to generate the mines.
+- Make class methods and variables static so they can be changed across all files.
