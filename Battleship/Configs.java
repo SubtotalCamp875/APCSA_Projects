@@ -60,12 +60,12 @@ public class Configs {
     }};
     
     // time defaults
-    //public static final int DEFAULT_TYPE_TIME = 4;
-    //public static final int DEFAULT_WAIT_TIME = 1000;
-    //public static final int DEFAULT_LOAD_TIME = 5000;
-    public static final int DEFAULT_TYPE_TIME = 0;
-    public static final int DEFAULT_WAIT_TIME = 0;
-    public static final int DEFAULT_LOAD_TIME = 0;
+    public static final int DEFAULT_TYPE_TIME = 4;
+    public static final int DEFAULT_WAIT_TIME = 1000;
+    public static final int DEFAULT_LOAD_TIME = 5000;
+    //public static final int DEFAULT_TYPE_TIME = 0;
+    //public static final int DEFAULT_WAIT_TIME = 0;
+    //public static final int DEFAULT_LOAD_TIME = 0;
 
     
     // non constant variables
